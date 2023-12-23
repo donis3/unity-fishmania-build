@@ -2,11 +2,7 @@
 
 Welcome to fishmania. This is an old unity project of mine built for practice. Feel free to check it out.
 
-<p style="text-align:center">
-
 [![Gameplay of fishmania](/img/fishmania_1.gif)](https://github.com/donis3)
-
-</p>
 
 ## Game Details
 
