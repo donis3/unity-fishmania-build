@@ -1,0 +1,62 @@
+html,
+body,
+header,
+main,
+h1,
+h2,
+h3,
+p {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+    font-size: 1.75rem;
+}
+a {
+    color: inherit;
+}
+h1 > a {
+    font-size: 1rem;
+    opacity: .5;
+}
+h1 > a:hover {
+    opacity: 1;
+}
+header {
+	box-sizing: border-box;
+	height: 50px;
+	background-color: #352f44;
+	color: #ffffff;
+	padding: 0.25rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+
+#unityContainer {
+	width: calc((100dvh - 50px) * 0.56);
+	height: calc(100dvh - 50px);
+
+	background: gold; /** <-- For the demo **/
+}
+
+body {
+	background: #faf0e6;
+	color: #352f44;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #526D82;
+		color: #DDE6ED;
+	}
+	header {
+		background-color: #27374D;
+		color: #ffffff;
+	}
+}
